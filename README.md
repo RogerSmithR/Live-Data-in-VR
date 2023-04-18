@@ -16,6 +16,7 @@ This project is licensed under the [MIT License] License - see the LICENSE.md fi
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+Inspiration, direction and resources:
 * [Andrew T. Duchowski](http://andrewd.ces.clemson.edu/)
 * [Clemson University](https://www.clemson.edu/)
+* [Sistemas RSA](https://sistemasrsa.com/)
