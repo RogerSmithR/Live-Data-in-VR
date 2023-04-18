@@ -1,5 +1,5 @@
 # Live Data in VR using Unity
-Project done in the class CPSC 8810 Eye Tracking II: Gaze Sensing and Interaction in XR, at Clemson University
+Project done in the class CPSC 8810 Eye Tracking II: Gaze Sensing and Interaction in XR, at Clemson University in Spring 2023
 
 ## Getting Started
 Documentation and research log is available [here](https://rogersmithr.github.io/Live-Data-in-VR/index.html).
