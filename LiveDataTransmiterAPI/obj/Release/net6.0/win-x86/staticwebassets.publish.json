@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "MANL9dmj4oFc2OpoN5JxAMk/eLTos/Z9PCsSZbklwxo=",
+  "Source": "LiveDataTransmiterAPI",
+  "BasePath": "_content/LiveDataTransmiterAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LiveDataTransmiterAPI\\wwwroot",
+      "Source": "LiveDataTransmiterAPI",
+      "ContentRoot": "C:\\Users\\roger\\Documents\\GitHub\\Live-Data-in-VR\\LiveDataTransmiterAPI\\wwwroot\\",
+      "BasePath": "_content/LiveDataTransmiterAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

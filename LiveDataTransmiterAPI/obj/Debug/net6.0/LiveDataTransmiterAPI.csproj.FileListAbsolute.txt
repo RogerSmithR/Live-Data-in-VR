@@ -48,8 +48,6 @@ C:\Users\roger\Documents\GitHub\Live-Data-in-VR\LiveDataTransmiterAPI\obj\Debug\
 C:\Users\roger\Documents\GitHub\Live-Data-in-VR\LiveDataTransmiterAPI\obj\Debug\net6.0\LiveDataTransmiterAPI.AssemblyInfoInputs.cache
 C:\Users\roger\Documents\GitHub\Live-Data-in-VR\LiveDataTransmiterAPI\obj\Debug\net6.0\LiveDataTransmiterAPI.AssemblyInfo.cs
 C:\Users\roger\Documents\GitHub\Live-Data-in-VR\LiveDataTransmiterAPI\obj\Debug\net6.0\LiveDataTransmiterAPI.csproj.CoreCompileInputs.cache
-C:\Users\roger\Documents\GitHub\Live-Data-in-VR\LiveDataTransmiterAPI\obj\Debug\net6.0\LiveDataTransmiterAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\roger\Documents\GitHub\Live-Data-in-VR\LiveDataTransmiterAPI\obj\Debug\net6.0\LiveDataTransmiterAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\roger\Documents\GitHub\Live-Data-in-VR\LiveDataTransmiterAPI\obj\Debug\net6.0\staticwebassets\msbuild.LiveDataTransmiterAPI.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\roger\Documents\GitHub\Live-Data-in-VR\LiveDataTransmiterAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.LiveDataTransmiterAPI.props
 C:\Users\roger\Documents\GitHub\Live-Data-in-VR\LiveDataTransmiterAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.LiveDataTransmiterAPI.props
