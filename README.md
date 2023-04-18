@@ -5,11 +5,10 @@ Project done in the class CPSC 8810 Eye Tracking II: Gaze Sensing and Interactio
 Documentation and research log is available [here](https://rogersmithr.github.io/Live-Data-in-VR/index.html).
 
 ## Authors
-The project was done by [LinkedIn: Roger Smith Rivas](https://www.linkedin.com/in/rogersmithr/)
+The project was done by [Roger Smith Rivas](https://www.linkedin.com/in/rogersmithr/).
 
 ## Version History
-See [commit change]() or See [release history]()
-
+See [commit changes](https://github.com/RogerSmithR/Live-Data-in-VR/commits/main/README.md)
 
 ## License
 
