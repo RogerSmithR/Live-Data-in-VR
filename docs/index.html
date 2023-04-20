@@ -13405,14 +13405,52 @@
 
                     <section class="docs-section" id="item-1-3">
                         <h3 class="section-heading">Installation</h3>
-                        <h5>Obtaing project from GitHub:</h5>
-                        <ol>
-                            <li>First, navigate to the <a href="https://github.com/RogerSmithR/Live-Data-in-VR.git">GitHub project page</a>  and locate the "Clone or Download" button. Click on this button to see the project's URL.</li>
-                            <li>Next, open your command line or terminal and navigate to the directory where you want to store the project. You can do this by typing "cd [directory]" in the command line, where "[directory]" is the name of the directory.</li>
-                            <li>Once you're in the desired directory, type "git clone https://github.com/RogerSmithR/Live-Data-in-VR.git" in the command line. This will create a local copy of the project on your computer.</li>
-                            <li>Once the cloning process is complete, you can navigate to the project directory by typing "cd Live-Data-in-VR" in the command line.</li>
-                            <li>You should now have a local copy of the GitHub project on your computer, which you can edit and work with as needed.</li>
-                        </ol>
+                        <h5>Cloning the repository from GitHub:</h5>
+                        <div class="extended-markdown webui">
+                            <ol>
+                            <li>
+                            <p>On GitHub.com, navigate to the main page of the repository.</p>
+                            </li>
+                            <li>
+                            <p>Above the list of files, click <svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-download" aria-hidden="true"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg> <strong>Code</strong>.
+                            <span class="procedural-image-wrapper"><picture><source srcset="https://github.com/RogerSmithR/Live-Data-in-VR/blob/main/docs/assets/img/github-code.webp?raw=true" type="image/webp"><img src="https://github.com/RogerSmithR/Live-Data-in-VR/blob/main/docs/assets/img/github-code.webp?raw=true" alt="&quot;Code&quot; button"></picture></span></p>
+                            </li>
+                            <li>
+                            <p>Copy the URL for the repository.</p>
+                            <ul>
+                            <li>
+                            <p>To clone the repository using HTTPS, under "HTTPS", click <svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-paste" aria-label="Copy to clipboard" role="img"><path d="M3.626 3.533a.249.249 0 0 0-.126.217v9.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-9.5a.249.249 0 0 0-.126-.217.75.75 0 0 1 .752-1.298c.541.313.874.89.874 1.515v9.5A1.75 1.75 0 0 1 12.25 15h-8.5A1.75 1.75 0 0 1 2 13.25v-9.5c0-.625.333-1.202.874-1.515a.75.75 0 0 1 .752 1.298ZM5.75 1h4.5a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-.75.75h-4.5A.75.75 0 0 1 5 4.75v-3A.75.75 0 0 1 5.75 1Zm.75 3h3V2.5h-3Z"></path></svg>.</p>
+                            </li>
+                            <li>
+                            <p>To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click <strong>SSH</strong>, then click <svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-paste" aria-label="Copy to clipboard" role="img"><path d="M3.626 3.533a.249.249 0 0 0-.126.217v9.5c0 .138.112.25.25.25h8.5a.25.25 0 0 0 .25-.25v-9.5a.249.249 0 0 0-.126-.217.75.75 0 0 1 .752-1.298c.541.313.874.89.874 1.515v9.5A1.75 1.75 0 0 1 12.25 15h-8.5A1.75 1.75 0 0 1 2 13.25v-9.5c0-.625.333-1.202.874-1.515a.75.75 0 0 1 .752 1.298ZM5.75 1h4.5a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-.75.75h-4.5A.75.75 0 0 1 5 4.75v-3A.75.75 0 0 1 5.75 1Zm.75 3h3V2.5h-3Z"></path></svg>.</p>
+                            </li>
+                            <li>
+                            <p>To clone a repository using GitHub CLI, click <strong>GitHub CLI</strong>, then click <svg version="1.1" width="16" height="16" viewBox="0 0 16 16" class="octicon octicon-copy" aria-label="Copy to clipboard" role="img"><path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path></svg>.</p>
+                            <p> <span class="procedural-image-wrapper"><picture><source srcset="https://github.com/RogerSmithR/Live-Data-in-VR/blob/main/docs/assets/img/github-code-2.webp?raw=true" type="image/webp"><img src="https://github.com/RogerSmithR/Live-Data-in-VR/blob/main/docs/assets/img/github-code-2.webp?raw=true" alt="Screenshot of the &quot;Code&quot; dropdown menu. To the right of the HTTPS URL for the repository, a copy icon is outlined in dark orange."></picture></span></p>
+                            </li>
+                            </ul>
+                            </li>
+                            <li>
+                            <p>Open <span class="platform-mac" style="display: none;">Terminal</span><span class="platform-linux" style="display: none;">Terminal</span><span class="platform-windows" style="">Git Bash</span>.</p>
+                            </li>
+                            <li>
+                            <p>Change the current working directory to the location where you want the cloned directory.</p>
+                            </li>
+                            <li>
+                            <p>Type <code>git clone</code>, and then paste the URL you copied earlier.</p>
+                            <pre class="shadow-lg rounded"><code class="hljs language-shell">$ git clone https://github.com/RogerSmithR/Live-Data-in-VR</code></pre>
+                            </li>
+                            <li>
+                            <p>Press <strong>Enter</strong> to create your local clone.</p>
+                            <pre class="shadow-lg rounded"><code class="hljs language-shell">$ git clone https://github.com/RogerSmithR/Live-Data-in-VR
+                            &gt; Cloning into `Spoon-Knife`...
+                            &gt; remote: Counting objects: 10, done.
+                            &gt; remote: Compressing objects: 100% (8/8), done.
+                            &gt; remove: Total 10 (delta 1), reused 10 (delta 1)
+                            &gt; Unpacking objects: 100% (10/10), done.</code></pre>
+                            </li>
+                            </ol>
+                            </div>
                         <h5>Open Unity project:</h5>
                         <img src="https://github.com/RogerSmithR/Live-Data-in-VR/blob/main/docs/assets/img/unity-hub.png?raw=true" class="mb-3 img-fluid img-thumbnail" data-action="zoom"/>
                         <ol>
@@ -13486,13 +13524,13 @@
     //WHEN OBJECT HAS FOCUS
     if (ObjectHasFocus)
     {
-        Debug.Log("ROJO");
+        Debug.Log("RED");
         _readData = true;
         _targetColor = highlightColor;
     }
     else
     {
-        Debug.Log("NEGRO");
+        Debug.Log("BLACK");
         _readData = false;
         _targetColor = _originalColor;
     }
@@ -13539,6 +13577,13 @@
                     <section class="docs-section" id="item-3-3">
                         <h3 class="section-heading"> Development log</h3>
                         <p><i>The section is designed to cover the schedule and progress of the project.</i></p>
+                        <h5>Progress 85%:</h5>
+            <div class="my-4">
+              <div class="progress my-4">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="85"
+                  aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
                         <h5>January 2023</h5>
                         <p>Definition of goals, schedule, and design.</p>
                         <h5>February 2023</h5>
