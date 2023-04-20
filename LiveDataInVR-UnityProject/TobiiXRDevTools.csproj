@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{37296443-BA16-883D-921A-F81696783240}</ProjectGuid>
+    <ProjectGuid>{ED0EBE94-E0C3-E784-F95D-91F0E191CABE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>TobiiXRDevTools</AssemblyName>
@@ -731,15 +731,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="TobiiXRCore.csproj">
-      <Project>{5A7610AC-6907-6754-F28F-E741FD58287F}</Project>
+      <Project>{DCDF03BF-1DDB-4C55-E494-DCCB6B929C36}</Project>
       <Name>TobiiXRCore</Name>
     </ProjectReference>
     <ProjectReference Include="TobiiXRG2OM.csproj">
-      <Project>{2D4AEAF6-7535-7916-43CD-2706A12C6989}</Project>
+      <Project>{82A212CA-6350-01E6-43E4-73B87F826005}</Project>
       <Name>TobiiXRG2OM</Name>
     </ProjectReference>
     <ProjectReference Include="TobiiXRSDK.csproj">
-      <Project>{B362E387-954D-363D-1FFF-A9BA5E71BC32}</Project>
+      <Project>{4E3F4DC0-243F-53B0-C5C3-14AAAD9A33F7}</Project>
       <Name>TobiiXRSDK</Name>
     </ProjectReference>
   </ItemGroup>

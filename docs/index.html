@@ -13373,7 +13373,7 @@
                     <header class="docs-header" style="min-height: 0px;">
                         <h1 class="docs-heading">Introduction <span class="docs-time">By Roger Smith Rivas</span></h1>
                         <section class="docs-intro">
-                            <img src="docs/assets/img/project-running.png" />
+                            <img src="https://github.com/RogerSmithR/Live-Data-in-VR/blob/main/docs/assets/img/project-running-unity.png?raw=true" class="mb-3 img-fluid img-thumbnail" data-action="zoom"/>
                             <p>The Live Data in Virtual Reality project developed on Unity is an exciting project created for the class <i>8810 Eye Tracking II: Gaze Sensing and Interaction in XR</i> at <a href="https://www.clemson.edu/">Clemson University</a> in spring-2023. The project aims to combine the latest virtual reality technology to create an immersive and interactive user experience in which users can navigate the environment. Every time the user’s gaze focuses on a specific object, the program will fetch a value (number) transmitted by a Web API representing the actual temperature in a water pump.</p>
                         </section>
 
@@ -13414,6 +13414,7 @@
                             <li>You should now have a local copy of the GitHub project on your computer, which you can edit and work with as needed.</li>
                         </ol>
                         <h5>Open Unity project:</h5>
+                        <img src="https://github.com/RogerSmithR/Live-Data-in-VR/blob/main/docs/assets/img/unity-hub.png?raw=true" class="mb-3 img-fluid img-thumbnail" data-action="zoom"/>
                         <ol>
                             <li>First, open Unity Hub on your computer. If you haven't installed it yet, you can <a href="https://unity.com/download">download it</a> from the official Unity website.</li>
                             <li>Once Unity Hub is open, click on the "Projects" tab located on the left side of the window.</li>
@@ -13449,6 +13450,7 @@
                     <section class="docs-section" id="item-3-1">
                         <h3 class="section-heading">Software and Hardware</h3>
                         <h5>Why Unity?</h5>
+                        <img src="https://github.com/RogerSmithR/Live-Data-in-VR/blob/main/docs/assets/img/unity-logo.png?raw=true" class="mb-3 img-fluid img-thumbnail" data-action="zoom"/>
                         <p><i>Unity Engine software was chosen for this project compared to other software for the following reasons:</i></p>
                         <ol>
                             <li>The developer working on the project has more experience programming in C# language (since 2016) than other programming languages and has already had some experience working in Unity Engine (since 2022).</li>
@@ -13462,6 +13464,7 @@
                         </ol>
 
                         <h5>Why HTC Vive Pro Eye?</h5>
+                        <img src="https://github.com/RogerSmithR/Live-Data-in-VR/blob/main/docs/assets/img/htc-vive-pro-eye.png?raw=true" class="mb-3 img-fluid img-thumbnail" data-action="zoom"/>
                         <p><i>This device was chosen for this project compared to other devices for the following reasons:</i></p>
                         <ol>
                             <li>Device Availability: The device is available for use free of charge in the Clemson University laboratory where the project was carried out.</li>
@@ -13477,11 +13480,60 @@
                         <h3 class="section-heading">Data interaction and gaze track</h3>
                         <p><i>The program has two principal actions:</i></p>
                         <h5>1. Obtaining the user’s gaze</h5>
+                        <div class="docs-code-block">
+                            <pre class="shadow-lg rounded"><code class="language-csharp">public void GazeFocusChanged(bool ObjectHasFocus)
+{
+    //WHEN OBJECT HAS FOCUS
+    if (ObjectHasFocus)
+    {
+        Debug.Log("ROJO");
+        _readData = true;
+        _targetColor = highlightColor;
+    }
+    else
+    {
+        Debug.Log("NEGRO");
+        _readData = false;
+        _targetColor = _originalColor;
+    }
+}</code></pre>
+                          </div>
                         <p>For the program to identify when the user looks at the object, it was necessary to implement the function “GazeFocusChanged” from the Tobii SDK. Tobii SDK (Software Development Kit) is a suite of software tools and APIs (Application Programming Interfaces) provided by Tobii AB, which develops eye-tracking technology. The Tobii SDK allows developers to integrate eye-tracking functionality into their applications and games and use eye-gaze data as an input method, among other features.</p>
                         <p>This information was discussed in the paper by Duchowski, Andrew T. et al., "3D gaze in virtual reality: vergence, calibration, event detection" in 2022. It discusses the challenges and opportunities of 3D gaze-tracking technology in virtual reality (VR) environments. It also describes some techniques for calibrating 3D gaze-tracking technology, like using natural features as reference points.</p>
                         <h5>2. Obtaining live data</h5>
-                        <p>When the user’s gaze is watching the object, the program executes an HTTP request to a Web API which transmits a JSON response containing a number done using the class “UnityWebRequest.” UnityWebRequest is a class in the Unity game engine that allows developers to send HTTP requests and receive responses from web servers. One crucial point is that the program executes the HTTP request in every frame (the execution is controlled using Coroutines). To improve the speed of the request-response, it was necessary to fetch the URL using the URL without SSL (Secure Sockets Layer). You can encrypt the transmitted data manually if you want a secure transmission.</p>
+                        <pre class="shadow-lg rounded"><code class="language-csharp">IEnumerator GetRequest(string uri)
+{
+    using (UnityWebRequest webRequest = UnityWebRequest.Get(uri))
+    {
+        // REQUEST AND WAIT FOR DESIRED PAGE
+        yield return webRequest.SendWebRequest();
+        if (webRequest.result == UnityWebRequest.Result.ConnectionError || webRequest.result == UnityWebRequest.Result.DataProcessingError)
+        {
+            Debug.Log("Error: " + webRequest.error);
+        }
+        else
+        {
+            _TextEditor.GetComponent<TMPro.TextMeshProUGUI>().text = "Heat: " + webRequest.downloadHandler.text + " Celsius";
+            var courses = webRequest.downloadHandler.text;
+            print(courses);
+        }
+    }
+}</code></pre>
+                        <p>When the user’s gaze is watching the object, the program executes an HTTP request to a Web API which transmits a JSON response containing a number done using the class “UnityWebRequest.” UnityWebRequest is a class in the Unity game engine that allows developers to send HTTP requests and receive responses from web servers. One crucial point is that the program executes the HTTP request in every frame (the execution is controlled using Coroutines).</p>
+                        <div class="callout-block callout-block-success">
+                            <div class="content">
+                              <h4 class="callout-title">Tip</h4>
+                              <p>To improve the speed of the request-response, it was necessary to fetch the URL using the URL without SSL (Secure Sockets Layer). You can encrypt the transmitted data manually if you want a secure transmission.</p>
+                            </div>
+                          </div>
                     <p>At the beginning of this project, the idea of fetching live data was inspired by the paper 3DRepo4Unity: Dynamic loading of version controlled 3D assets into the Unity game engine by Friston, Sebastian, et al., which describes a plugin for the Unity game engine that allows developers to access and use 3D models and data stored in the 3DRepo platform directly within Unity. This integration makes it easier for developers to access and use 3D data in their projects, streamlining the development process and enabling more complex and sophisticated 3D applications. But later, I switched from fetching entire graph assets to showing a simple text from an HTTP request because of the high hardware and network transfer cost while using 3DRepo4Unity.</p>
+
+                    <div class="callout-block callout-block-info">
+                        <div class="content">
+                          <h4 class="callout-title">Note</h4>
+                          <p>The data is transmitted by a Web API created in ASP.NET Core Web API The server used to install this project was provided for free by <a href="https://sistemasrsa.com/">Sistemas RSA</a>.</p>
+                        </div>
+                      </div>
                     </section>
 
                     <section class="docs-section" id="item-3-3">

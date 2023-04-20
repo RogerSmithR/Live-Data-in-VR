@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2D4AEAF6-7535-7916-43CD-2706A12C6989}</ProjectGuid>
+    <ProjectGuid>{82A212CA-6350-01E6-43E4-73B87F826005}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>TobiiXRG2OM</AssemblyName>

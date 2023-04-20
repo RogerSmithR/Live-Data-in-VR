@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{8656577E-56C2-D026-9753-1CB19424929A}</ProjectGuid>
+    <ProjectGuid>{66EAA38F-11F6-EC77-1E55-8ED027F869C3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -887,43 +887,43 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamAudioUnityEditor.csproj">
-      <Project>{013AE718-25B1-0171-9322-8F030A932CDA}</Project>
+      <Project>{38AF486E-71D0-8442-7AE7-2135A2CBF119}</Project>
       <Name>SteamAudioUnityEditor</Name>
     </ProjectReference>
     <ProjectReference Include="ControllerSample.csproj">
-      <Project>{76DE420F-D6F3-21B3-9385-1BB9FDEF283B}</Project>
+      <Project>{347D82B5-404C-5EB7-21E4-D231998C51A1}</Project>
       <Name>ControllerSample</Name>
     </ProjectReference>
     <ProjectReference Include="TobiiXRSDK.csproj">
-      <Project>{B362E387-954D-363D-1FFF-A9BA5E71BC32}</Project>
+      <Project>{4E3F4DC0-243F-53B0-C5C3-14AAAD9A33F7}</Project>
       <Name>TobiiXRSDK</Name>
     </ProjectReference>
     <ProjectReference Include="SteamAudioUnity.csproj">
-      <Project>{ECBAD128-6EB1-2727-A2B9-112A0C25D074}</Project>
+      <Project>{BAE83812-A73E-6540-5E7E-7C12585932AC}</Project>
       <Name>SteamAudioUnity</Name>
     </ProjectReference>
     <ProjectReference Include="TobiiXRCore.csproj">
-      <Project>{5A7610AC-6907-6754-F28F-E741FD58287F}</Project>
+      <Project>{DCDF03BF-1DDB-4C55-E494-DCCB6B929C36}</Project>
       <Name>TobiiXRCore</Name>
     </ProjectReference>
     <ProjectReference Include="TobiiXRG2OM.csproj">
-      <Project>{2D4AEAF6-7535-7916-43CD-2706A12C6989}</Project>
+      <Project>{82A212CA-6350-01E6-43E4-73B87F826005}</Project>
       <Name>TobiiXRG2OM</Name>
     </ProjectReference>
     <ProjectReference Include="GazeModifierEditor.csproj">
-      <Project>{D1B4251A-B8B5-8A96-317C-B9543B17B318}</Project>
+      <Project>{CEFFA3F3-0218-4327-1065-5A5CC199E10E}</Project>
       <Name>GazeModifierEditor</Name>
     </ProjectReference>
     <ProjectReference Include="TobiiXRDevTools.csproj">
-      <Project>{37296443-BA16-883D-921A-F81696783240}</Project>
+      <Project>{ED0EBE94-E0C3-E784-F95D-91F0E191CABE}</Project>
       <Name>TobiiXRDevTools</Name>
     </ProjectReference>
     <ProjectReference Include="TobiiXRInternalEditor.csproj">
-      <Project>{7DAC643D-F0B1-EF03-D1B8-5631D53DA305}</Project>
+      <Project>{96FC99CE-1C61-941B-B8DE-33270270C095}</Project>
       <Name>TobiiXRInternalEditor</Name>
     </ProjectReference>
     <ProjectReference Include="TobiiXREditor.csproj">
-      <Project>{FE139396-4124-C1C6-119F-90E8791AC44F}</Project>
+      <Project>{9683A735-A3DE-2B05-E4ED-BDB813BA03AC}</Project>
       <Name>TobiiXREditor</Name>
     </ProjectReference>
   </ItemGroup>

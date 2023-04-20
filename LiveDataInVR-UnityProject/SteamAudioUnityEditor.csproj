@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{013AE718-25B1-0171-9322-8F030A932CDA}</ProjectGuid>
+    <ProjectGuid>{38AF486E-71D0-8442-7AE7-2135A2CBF119}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>SteamAudioUnityEditor</AssemblyName>
@@ -737,7 +737,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="SteamAudioUnity.csproj">
-      <Project>{ECBAD128-6EB1-2727-A2B9-112A0C25D074}</Project>
+      <Project>{BAE83812-A73E-6540-5E7E-7C12585932AC}</Project>
       <Name>SteamAudioUnity</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{76DE420F-D6F3-21B3-9385-1BB9FDEF283B}</ProjectGuid>
+    <ProjectGuid>{347D82B5-404C-5EB7-21E4-D231998C51A1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>ControllerSample</AssemblyName>

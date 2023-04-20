@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5A7610AC-6907-6754-F28F-E741FD58287F}</ProjectGuid>
+    <ProjectGuid>{DCDF03BF-1DDB-4C55-E494-DCCB6B929C36}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>TobiiXRCore</AssemblyName>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D1B4251A-B8B5-8A96-317C-B9543B17B318}</ProjectGuid>
+    <ProjectGuid>{CEFFA3F3-0218-4327-1065-5A5CC199E10E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>GazeModifierEditor</AssemblyName>
@@ -722,19 +722,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="TobiiXRCore.csproj">
-      <Project>{5A7610AC-6907-6754-F28F-E741FD58287F}</Project>
+      <Project>{DCDF03BF-1DDB-4C55-E494-DCCB6B929C36}</Project>
       <Name>TobiiXRCore</Name>
     </ProjectReference>
     <ProjectReference Include="TobiiXRInternalEditor.csproj">
-      <Project>{7DAC643D-F0B1-EF03-D1B8-5631D53DA305}</Project>
+      <Project>{96FC99CE-1C61-941B-B8DE-33270270C095}</Project>
       <Name>TobiiXRInternalEditor</Name>
     </ProjectReference>
     <ProjectReference Include="TobiiXRDevTools.csproj">
-      <Project>{37296443-BA16-883D-921A-F81696783240}</Project>
+      <Project>{ED0EBE94-E0C3-E784-F95D-91F0E191CABE}</Project>
       <Name>TobiiXRDevTools</Name>
     </ProjectReference>
     <ProjectReference Include="TobiiXRSDK.csproj">
-      <Project>{B362E387-954D-363D-1FFF-A9BA5E71BC32}</Project>
+      <Project>{4E3F4DC0-243F-53B0-C5C3-14AAAD9A33F7}</Project>
       <Name>TobiiXRSDK</Name>
     </ProjectReference>
   </ItemGroup>
