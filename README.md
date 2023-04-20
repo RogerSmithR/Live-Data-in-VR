@@ -1,6 +1,3 @@
-![alt text](https://github.com/RogerSmithR/Live-Data-in-VR/blob/a4540744c2b5b9e1f7c3c4b5f5de14a76d47531f/docs/assets/img/project-running-unity.png?raw=true)
-
-
 https://user-images.githubusercontent.com/13562404/233289213-0ab79428-f419-414f-9569-c3d7cff90ab2.mp4
 
 
