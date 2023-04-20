@@ -1,5 +1,5 @@
 # Live Data in VR using Unity
-Project done in the class CPSC 8810 Eye Tracking II: Gaze Sensing and Interaction in XR, at Clemson University in Spring 2023
+The Live Data in Virtual Reality project developed on Unity is an exciting project created for the class 8810 Eye Tracking II: Gaze Sensing and Interaction in XR at Clemson University in spring-2023. The project aims to combine the latest virtual reality technology to create an immersive and interactive user experience in which users can navigate the environment. Every time the user’s gaze focuses on a specific object, the program will fetch a value (number) transmitted by a Web API representing the actual temperature in a water pump.
 
 ## Getting Started
 Documentation and research log is available [here](https://rogersmithr.github.io/Live-Data-in-VR/index.html).
@@ -15,8 +15,8 @@ See [commit changes](https://github.com/RogerSmithR/Live-Data-in-VR/commits/main
 This project is licensed under the [MIT License] License - see the LICENSE.md file for details
 
 ## Acknowledgments
+The author thanks Ph.D. Andrew T. Duchowski from Clemson University for the helpful discussions about this work and for providing guidelines on the elaboration of this project and to Sistemas RSA for providing all the resources to implement the web API. The information provided in this web site are below the author.
 
-Inspiration, direction and resources:
 * [Andrew T. Duchowski](http://andrewd.ces.clemson.edu/)
 * [Clemson University](https://www.clemson.edu/)
 * [Sistemas RSA](https://sistemasrsa.com/)
